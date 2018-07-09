@@ -12,7 +12,7 @@ Status:
 
 ### Some small tweaks
 
-The first thing I noticed when running this was that new todo items couldn't be added by hitting return while focused on the intput. I had to tab over to the input button to add them. This didn't seem ideal for accessibility so I wrapped the `ItemCreator` elements in a form and created a new `save` function that could handle the `onSubmit` event from the form and also the `onClick` event from the button.
+The first thing I noticed when running this was that new todo items couldn't be added by hitting return while focused on the input. I had to tab over to the input button to add them. This didn't seem ideal for accessibility so I wrapped the `ItemCreator` elements in a form and created a new `save` function that could handle the `onSubmit` event from the form and also the `onClick` event from the button.
 
 ### Delete and toggle
 
@@ -27,7 +27,7 @@ For speed I based the filtering on a single object that would hold a key. This l
 ### Testing
 
 Could have written more tests but didn't want to overrun on time. 
-On the UI side, I added tests for removing and toggling items, and also filtering. On the state site, I created tests for the filter option action and the remove and toggle item actions.
+On the UI side, I added tests for removing and toggling items, and also filtering. On the state side, I created tests for the filter option action and the remove and toggle item actions.
 
 ### Expanding
 
